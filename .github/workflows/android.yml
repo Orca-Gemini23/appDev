@@ -2,9 +2,9 @@ name: Android CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ $default-branch ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ $default-branch ]
 
 jobs:
   build:
@@ -16,7 +16,7 @@ jobs:
     - name: set up JDK 11
       uses: actions/setup-java@v4
       with:
-        java-version: '19'
+        java-version: '11'
         distribution: 'temurin'
         cache: gradle
 
