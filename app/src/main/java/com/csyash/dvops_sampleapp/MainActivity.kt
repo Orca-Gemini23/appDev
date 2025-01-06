@@ -42,6 +42,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     DVOPS_sampleAPPTheme {
-        Greeting("Android")
+        Greeting("moto")
     }
 }
+
