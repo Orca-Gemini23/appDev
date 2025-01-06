@@ -34,5 +34,5 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: apk
-          path: app/build/outputs/apk/release/app-release.apk  # The path to the built APK file
+          path: app/build/outputs/apk/release/debug/app-debug.apk  # The path to the built APK file
 
