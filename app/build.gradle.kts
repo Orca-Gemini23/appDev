@@ -4,6 +4,7 @@ plugins {
     alias(libs.plugins.kotlin.compose)
 }
 
+
 android {
     namespace = "com.csyash.dvops_sampleapp"
     compileSdk = 34
